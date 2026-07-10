@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-primary-dark transition-colors duration-300;
+    background-image: linear-gradient(rgba(240, 235, 235, 0.7), rgba(240, 235, 235, 0.7)), url('/global-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #1a1a1a;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}

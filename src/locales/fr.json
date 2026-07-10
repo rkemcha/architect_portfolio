@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact",
+    "downloadPdf": "Télécharger le PDF du projet"
+  },
+  "home": {
+    "heroTitle": "Une architecture qui traverse le temps.",
+    "heroSubtitle": "Salah Abdennebi — Architecte & Designer",
+    "subtitle": "Architecte et Designer",
+    "bio": "Un architecte passionné par le design durable et la création d'espaces en harmonie avec leur environnement naturel. Spécialisé dans l'architecture moderne, résidentielle et commerciale.",
+    "keyProjects": "Projets Clés"
+  },
+  "project": {
+    "year": "Année",
+    "location": "Lieu",
+    "scope": "Étendue",
+    "back": "Retour à l'accueil"
+  }
+}
