@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/architect_portfolio/', // Use relative paths for static hosting
+  base: './', // Use relative paths for static hosting
 })
