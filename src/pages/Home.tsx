@@ -30,7 +30,7 @@ export default function Home() {
             <Link 
               key={project.id} 
               to={`/project/${project.id}`}
-              className="group block transition-all duration-300 hover:opacity-100 opacity-90 bg-white/50 backdrop-blur-md border border-gray-300/50 hover:border-gray-400 p-8 md:p-12 rounded-2xl"
+              className="group block transition-all duration-300 hover:opacity-100 opacity-90 bg-white/70 backdrop-blur-md border border-gray-200 shadow-sm hover:border-gray-300 p-8 md:p-12 rounded-2xl"
             >
               <div className="flex justify-between items-start mb-12">
                 <span className="text-5xl md:text-6xl font-serif font-light text-primary-dark/40 group-hover:text-primary-dark transition-colors drop-shadow-sm">

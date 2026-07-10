@@ -19,16 +19,16 @@ export default function ProjectDetails() {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-24">
-      <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-3xl p-8 md:p-16">
+      <div className="bg-white/70 backdrop-blur-md border border-gray-200 shadow-sm rounded-3xl p-8 md:p-16 text-primary-dark">
         <Link 
           to="/" 
-          className="inline-flex items-center gap-2 mb-16 opacity-70 hover:opacity-100 transition-opacity uppercase tracking-wider text-sm"
+          className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary-dark text-white rounded-full hover:bg-black transition-colors uppercase tracking-wider text-sm mb-16"
         >
           <ArrowLeft size={16} />
           {t('project.back')}
         </Link>
 
-        <header className="border-b border-white/10 pb-12">
+        <header className="border-b border-black/10 pb-12">
         <h1 className="text-5xl md:text-7xl font-serif mb-8">{project.title}</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -37,7 +37,7 @@ export default function ProjectDetails() {
               {project.description}
             </p>
           </div>
-          <div className="space-y-4 text-sm uppercase tracking-wider border-l border-white/10 pl-6">
+          <div className="space-y-4 text-sm uppercase tracking-wider border-l border-gray-200 pl-6">
             <div>
               <span className="opacity-50 block mb-1">{t('project.year')}</span>
               <span className="font-semibold">{project.year}</span>

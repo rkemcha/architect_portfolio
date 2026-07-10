@@ -5,7 +5,7 @@
 @layer base {
   body {
     @apply text-primary-dark transition-colors duration-300;
-    background-image: linear-gradient(rgba(240, 235, 235, 0.7), rgba(240, 235, 235, 0.7)), url('/global-bg.png');
+    background-image: linear-gradient(rgba(240, 235, 235, 0.9), rgba(240, 235, 235, 0.9)), url('/global-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
